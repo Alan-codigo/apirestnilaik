@@ -1,7 +1,7 @@
 INSERT INTO `nilaik`.`imgproducto` (`url`)
 VALUES ('https://ejemplo.com/img1.jpg');
 INSERT INTO `nilaik`.`producto` (`articulo`, `marca`, `talla`, `codigo`, `color`, `preciomayoreo`, `PrecioMenudeo`, `Existencias`, `imgproducto_idimgproducto`)
-VALUES ('Camiseta', 'Nike', 8, 'NKN001', 'Negro', 100, 150, '10 unidades', 1);
+VALUES ('Camiseta', 'Nike', 8, 'NKN001', 'Negro', 100, 150,10, 1);
 INSERT INTO `nilaik`.`Cliente` (`nombre`, `apellido`, `correo`, `contrasena`, `nacimiento`, `direccion`)
 VALUES ('Juan', 'Pérez', 'juan.perez@ejemplo.com', 'contrasena', '2000-01-01', 'Av. Ejemplo 123');
 INSERT INTO `nilaik`.`Pedido` (`fechapedido`,`cliente_idcliente`)

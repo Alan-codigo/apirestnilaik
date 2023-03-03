@@ -15,7 +15,7 @@ public class ImgProducto {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "idimgproducto")
     private int idimgproducto;
-
+    
     @Column(name = "url")
     private String url;
 
